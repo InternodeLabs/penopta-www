@@ -189,7 +189,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 3rem;
-  border: 2px solid var(--orange-dark);
+  border: 2px solid color-mix(in srgb, var(--orange-dark) 30%, transparent);
   border-radius: var(--radius-sm);
 }
 
