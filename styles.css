@@ -17,6 +17,7 @@
   --black: #000000;
   --orange: #ff8933;
   --orange-light: #ffa666;
+  --orange-dark: #e07020;
   --orange-tint: #fbe8df;
   --blue-tint: #dee9fa;
 
@@ -183,20 +184,24 @@ body {
   margin-top: 3rem;
 }
 
-.wireframe-box--card {
-  display: none;
+.hero__mockup {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  margin-bottom: 1.5rem;
-  border-radius: var(--radius-md);
-  background: linear-gradient(145deg, var(--blue-tint) 0%, #eef4fd 100%);
-  border-color: rgba(119, 147, 197, 0.18);
+  height: auto;
+  margin-top: 3rem;
+  border: 2px solid var(--orange-dark);
+  border-radius: var(--radius-sm);
 }
 
-.wireframe-box--feature {
+.wireframe-box--card {
+  display: none !important;
+}
+
+.feature__mockup {
+  display: block;
   width: 100%;
-  min-height: 220px;
-  aspect-ratio: 16 / 10;
+  height: auto;
+  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
 }
 
@@ -399,7 +404,7 @@ body {
   order: 2;
 }
 
-.feature-row--reverse .wireframe-box {
+.feature-row--reverse .feature__mockup {
   order: 1;
 }
 
@@ -490,7 +495,7 @@ body {
   }
 
   .feature-row--reverse .feature-row__copy,
-  .feature-row--reverse .wireframe-box {
+  .feature-row--reverse .feature__mockup {
     order: unset;
   }
 }

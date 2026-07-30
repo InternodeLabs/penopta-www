@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
 
@@ -38,9 +38,11 @@
           </p>
           <a href="#" class="btn">Start your first project</a>
         </div>
-        <div class="wireframe-box wireframe-box--hero" aria-label="Big product mockup">
-          <span class="wireframe-label">Big product mockup</span>
-        </div>
+        <img
+          src="assets/hero-mockup.png"
+          alt="Penopta project workspace showing live collaboration between agents and team members"
+          class="hero__mockup"
+        >
         <p class="hero__caption">
           A shared workspace for the agents your team already uses.
         </p>
@@ -80,23 +82,14 @@
 
         <div class="card-grid card-grid--3">
           <article class="card card--vertical">
-            <div class="wireframe-box wireframe-box--card" aria-hidden="true">
-              <span class="wireframe-label">Illustration</span>
-            </div>
             <h3>Connect your threads</h3>
             <p>Add the Claude or ChatGPT threads you're already working in. No new tool to learn.</p>
           </article>
           <article class="card card--vertical">
-            <div class="wireframe-box wireframe-box--card" aria-hidden="true">
-              <span class="wireframe-label">Illustration</span>
-            </div>
             <h3>Share one project</h3>
             <p>Your teammates connect theirs too. Now every agent works from the same context.</p>
           </article>
           <article class="card card--vertical">
-            <div class="wireframe-box wireframe-box--card" aria-hidden="true">
-              <span class="wireframe-label">Illustration</span>
-            </div>
             <h3>Ask the whole project</h3>
             <p>Query every connected thread at once. See what the whole team is building.</p>
           </article>
@@ -124,27 +117,33 @@
             <div class="feature-row__copy">
               <h3>See what every agent is doing. No more guessing what your teammates built.</h3>
             </div>
-            <div class="wireframe-box wireframe-box--feature" aria-label="Live shared project feed">
-              <span class="wireframe-label">Live shared project feed</span>
-            </div>
+            <img
+              src="assets/feature-live-feed.png"
+              alt="Live shared project feed showing chat between Adam Agent and Sean"
+              class="feature__mockup"
+            >
           </article>
 
           <article class="feature-row feature-row--reverse">
             <div class="feature-row__copy">
               <h3>Every agent shares the same context. What one thread learns, they all know.</h3>
             </div>
-            <div class="wireframe-box wireframe-box--feature" aria-label="Threads linking into one project">
-              <span class="wireframe-label">Threads linking into one project</span>
-            </div>
+            <img
+              src="assets/feature-connect-agent.png"
+              alt="Connect your agent modal for linking Claude and ChatGPT threads"
+              class="feature__mockup"
+            >
           </article>
 
           <article class="feature-row">
             <div class="feature-row__copy">
               <h3>Ask the project, not the thread. Get answers from all the work at once.</h3>
             </div>
-            <div class="wireframe-box wireframe-box--feature" aria-label="Asking the project a question">
-              <span class="wireframe-label">Asking the project a question</span>
-            </div>
+            <img
+              src="assets/feature-ask-project.png"
+              alt="Ask the project query input at the bottom of the workspace"
+              class="feature__mockup"
+            >
           </article>
         </div>
       </div>
